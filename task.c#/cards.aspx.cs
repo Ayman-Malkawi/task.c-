@@ -7,23 +7,22 @@ using System.Web.UI.WebControls;
 
 namespace task.c
 {
-    public partial class button_page : System.Web.UI.Page
+    public partial class cards : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void card1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("sign up.aspx");
-
-
+            Response.Redirect("see_all_books.aspx");
 
         }
-        protected void Button1_Click(object sender, EventArgs e)
+
+        protected void card2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Sign in.aspx");
+            Response.Redirect("see a meeting rooms.aspx");
 
 
         }

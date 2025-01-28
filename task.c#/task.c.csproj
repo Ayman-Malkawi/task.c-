@@ -67,13 +67,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="add-meeting.aspx" />
+    <Content Include="Add_Books.aspx" />
+    <Content Include="admin_card.aspx" />
     <Content Include="ayman2.txt" />
+    <Content Include="books.txt" />
+    <Content Include="cards.aspx" />
     <Content Include="Home page.aspx" />
+    <Content Include="meeting.txt" />
+    <Content Include="see a meeting rooms.aspx" />
+    <Content Include="see_all_books.aspx" />
     <Content Include="Sign in.aspx" />
     <Content Include="sign up.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add-meeting.aspx.cs">
+      <DependentUpon>add-meeting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add-meeting.aspx.designer.cs">
+      <DependentUpon>add-meeting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Books.aspx.cs">
+      <DependentUpon>Add_Books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_Books.aspx.designer.cs">
+      <DependentUpon>Add_Books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_card.aspx.cs">
+      <DependentUpon>admin_card.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_card.aspx.designer.cs">
+      <DependentUpon>admin_card.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cards.aspx.cs">
+      <DependentUpon>cards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cards.aspx.designer.cs">
+      <DependentUpon>cards.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home page.aspx.cs">
       <DependentUpon>Home page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -82,6 +118,20 @@
       <DependentUpon>Home page.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="see a meeting rooms.aspx.cs">
+      <DependentUpon>see a meeting rooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="see a meeting rooms.aspx.designer.cs">
+      <DependentUpon>see a meeting rooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="see_all_books.aspx.cs">
+      <DependentUpon>see_all_books.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="see_all_books.aspx.designer.cs">
+      <DependentUpon>see_all_books.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Sign in.aspx.cs">
       <DependentUpon>Sign in.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

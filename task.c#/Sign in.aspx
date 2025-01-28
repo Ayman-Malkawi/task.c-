@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sign in.aspx.cs" Inherits="task.c_.Sign_in" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sign in.aspx.cs" Inherits="task.c.Sign_in" %>
 
 <!DOCTYPE html>
 
@@ -28,7 +28,7 @@ height: 100%;
 
     </style>
     <title> Sign in</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
 </head>
@@ -76,6 +76,8 @@ height: 100%;
               <asp:TextBox runat="server" ID="pass"/>
           </div>
           <asp:Button ID="but" OnClick="but_Click" runat="server" Text="Sign in" CssClass="btn btn-primary btn-block mb-4" />
+
+          <asp:TextBox runat="server" ID="result" Visible="false"/>
           <div class="d-flex justify-content-between align-items-center">
             <!-- Checkbox -->
             <div class="form-check mb-0">
