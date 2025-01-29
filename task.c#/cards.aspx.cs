@@ -17,14 +17,17 @@ namespace task.c
         protected void card1_Click(object sender, EventArgs e)
         {
             Response.Redirect("see_all_books.aspx");
-
         }
 
         protected void card2_Click(object sender, EventArgs e)
         {
             Response.Redirect("see a meeting rooms.aspx");
+        }
 
-
+        // Add Profile button event
+        protected void profileButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("profile.aspx"); // Redirecting to profile page
         }
     }
 }

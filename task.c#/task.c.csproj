@@ -73,8 +73,11 @@
     <Content Include="ayman2.txt" />
     <Content Include="books.txt" />
     <Content Include="cards.aspx" />
+    <Content Include="edit.aspx" />
     <Content Include="Home page.aspx" />
     <Content Include="meeting.txt" />
+    <Content Include="prof.txt" />
+    <Content Include="profile.aspx" />
     <Content Include="see a meeting rooms.aspx" />
     <Content Include="see_all_books.aspx" />
     <Content Include="Sign in.aspx" />
@@ -110,12 +113,26 @@
     <Compile Include="cards.aspx.designer.cs">
       <DependentUpon>cards.aspx</DependentUpon>
     </Compile>
+    <Compile Include="edit.aspx.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit.aspx.designer.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home page.aspx.cs">
       <DependentUpon>Home page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Home page.aspx.designer.cs">
       <DependentUpon>Home page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="see a meeting rooms.aspx.cs">
